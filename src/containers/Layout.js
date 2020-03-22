@@ -25,15 +25,15 @@ export const Layout = props => {
         position: relative;
         margin: 0;
         padding: 0;
-        height: 100vh;
+        height: calc(100vh - 80px);
       `}
       {...props}
     >
       <NavBar>
-        <Link to="/Main">Home으로..</Link>
+        <Link to="/">Home으로..</Link>
         <Link to="/login">Login</Link>
         <Link to="/cart">장바구니</Link>
-        <Link to="/nono">NoRoute</Link>
+        {/* <Link to="/nono">NoRoute</Link> */}
       </NavBar>
       {props.children}
     </div>

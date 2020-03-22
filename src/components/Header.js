@@ -5,8 +5,8 @@ import { Link } from 'react-router-dom';
 
 function Header() {
   return (
-    <div>
-      <Link to="/main">MAIN</Link>
+    <div className="Header" css={css``}>
+      <Link to="/">MAIN</Link>
       <Link to="/sub01"> SUB_01</Link>
       <Link to="/sub02"> SUB_02 </Link>
       <Link to="/sub03"> SUB_03 </Link>
