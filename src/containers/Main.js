@@ -1,16 +1,12 @@
-import React from 'react';
+import React, { Component } from 'react';
 import { Layout } from './Layout';
+import Counter from '../components/Counter';
 function Main() {
   return (
     <Layout>
       <div>
         <h1>메인페이지</h1>
-        <div className="Counter">
-          <p> 카운트~~~~</p>
-          <button>+1</button>
-          <button>-1</button>
-          <button>+5</button>
-        </div>
+        <Counter />
       </div>
     </Layout>
   );

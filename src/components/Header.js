@@ -1,11 +1,10 @@
 /** @jsx jsx */
-import React from 'react';
-import { jsx, css } from '@emotion/core';
+import { jsx } from '@emotion/core';
 import { Link } from 'react-router-dom';
 
 function Header() {
   return (
-    <div className="Header" css={css``}>
+    <div className="Header">
       <Link to="/">MAIN</Link>
       <Link to="/sub01"> SUB_01</Link>
       <Link to="/sub02"> SUB_02 </Link>

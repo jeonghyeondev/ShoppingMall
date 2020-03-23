@@ -1,6 +1,6 @@
-import React from 'react';
+import React, { Component } from 'react';
 
-class Counter extends React.Component {
+class Counter extends Component {
   state = {
     count: 0,
   };
@@ -22,6 +22,7 @@ class Counter extends React.Component {
   render() {
     return (
       <div className="Counter">
+        <span>카운트</span>
         <h1>{this.state.count}</h1>
         <button onClick={() => this.onIncrease()}>+1 increase</button>
         <button onClick={() => this.onDecrease()}>-1 decrease</button>

@@ -4,7 +4,7 @@ import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import Loading from './components/Loading';
 import Header from './components/Header';
 import Main from './containers/Main';
-import Counter from './components/Counter';
+// import Counter from './components/Counter';
 import Footer from './components/Footer';
 
 // const Main = lazy(() => import('./containers/Main'));

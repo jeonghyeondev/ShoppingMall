@@ -1,7 +1,6 @@
 /** @jsx jsx */
-import React from 'react';
+import { jsx } from '@emotion/core';
 import { Layout } from './Layout';
-import { jsx, css } from '@emotion/core';
 
 function Sub01() {
   return (
