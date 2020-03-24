@@ -1,5 +1,5 @@
 {
-  "name": "kids_01",
+  "name": "kids_react",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -8,14 +8,17 @@
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
     "axios": "^0.19.2",
+    "emotion-reset": "^2.0.7",
     "eslint-config-airbnb": "^18.1.0",
     "eslint-config-prettier": "^6.10.0",
+    "node-sass": "^4.13.1",
     "prop-types": "^15.7.2",
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.4.0",
-    "react-spinners": "^0.8.1"
+    "react-spinners": "^0.8.1",
+    "styled-reset": "^4.1.2"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -45,5 +48,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "eslint-plugin-react": "^7.19.0"
   }
 }

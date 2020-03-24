@@ -4,7 +4,9 @@ import { Layout } from './Layout';
 function Cart() {
   return (
     <Layout>
-      <div>장바구니 페이지</div>
+      <div>
+        <h2 className="bigTitle">장바구니 페이지</h2>
+      </div>
     </Layout>
   );
 }

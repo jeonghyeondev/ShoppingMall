@@ -6,7 +6,7 @@ function Sub02() {
   return (
     <Layout>
       <div>
-        <h2>서브페이지_222</h2>
+        <h2 className="bigTitle">서브페이지_222</h2>
       </div>
     </Layout>
   );
