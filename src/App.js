@@ -4,6 +4,8 @@ import Loading from './components/Loading';
 import Header from './components/Header';
 import Main from './containers/Main';
 import Footer from './components/Footer';
+import GlobalStyle from './style/GlobalStyle';
+import './style/Common.scss';
 
 // const Main = lazy(() => import('./containers/Main'));
 const Sub01 = lazy(() => import('./containers/Sub01'));

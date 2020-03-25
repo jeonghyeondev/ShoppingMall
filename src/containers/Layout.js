@@ -11,7 +11,7 @@ const NavBar = props => {
         border-bottom: ${props.border || '#f5f5f5'};
         ${'' /* height: 72px; */}
         position: absolute;
-        top: -35px;
+        top: -40px;
         right: 10px;
         color: #000;
         font-size: 13px;
@@ -37,7 +37,7 @@ export const Layout = props => {
         position: relative;
         margin: 0;
         padding: 0;
-        height: calc(100vh - 217px);
+        height: calc(100vh - 259px);
         border-top: 1px solid #ccc;
         padding-top: 100px;
       `}
